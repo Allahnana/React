@@ -5,12 +5,14 @@ import Welcome from './Components/Welcome';
 import Hello from './Components/Hello';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import UserGreeting from './Components/UserGreeting';
 
 function App() {
   return (
     <div className="App">
+      <UserGreeting/>
 
-      <Counter/>
+      {/* <Counter/> */}
       {/* <Message/> */}
       {/* <Greet name= "Abdulhadi" lastName= "Usman">
         <p>This is a children props</p>
