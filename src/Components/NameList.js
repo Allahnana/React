@@ -31,7 +31,7 @@ function NameList() {
             id:5,
             Name: 'Nafisa',
             age:27,
-            skill: 'Python'.
+            skill: 'Python.'
         },
     ]
     const personslist = persons.map(person =>  <PersonList person = {person}/>
