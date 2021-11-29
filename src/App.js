@@ -6,11 +6,13 @@ import Hello from './Components/Hello';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
 import UserGreeting from './Components/UserGreeting';
+import NameList from './Components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting/>
+      <NameList/>
+      {/* <UserGreeting/> */}
 
       {/* <Counter/> */}
       {/* <Message/> */}
